@@ -1,8 +1,9 @@
 /*
-
+Sorting array using 2 pointers
 */
 
 let nums = [-4,-1,0,3,10];
+
 let sortedSquares = function(nums) {
     let n = nums.length; 
     let result = new Array(n);
@@ -19,10 +20,11 @@ let sortedSquares = function(nums) {
             square = nums[left];
             left++;
         }
-        result[i] = square *square;
+        result[i] = square * square;
     }
 return result; 
 };
 console.log(sortedSquares(nums))
 
 // Time : 
+// Space : 
